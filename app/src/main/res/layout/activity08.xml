@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Surver:Step 7"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:id="@+id/tex8"
+        android:gravity="center"
+        android:text="Did you use internet before coming to China"/>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="138dp"
+        android:layout_height="215dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="139dp"
+        android:layout_gravity="center"
+        android:weightSum="1"
+        android:layout_weight="0.62">
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No" />
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="428dp"
+        android:layout_height="60dp"
+        android:id="@+id/btn8"
+        android:text="choose one"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="btn8" />
+
+
+</LinearLayout>

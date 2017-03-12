@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:background="@color/colorPrimaryDark"
+       android:text="Survey:Step12"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:id="@+id/tex13"
+        android:gravity="center"
+        android:text="Which search engines do you mostly use in China?(Choose all the apply)"/>
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="88dp"
+        android:text="Exalead" />
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox1"
+        android:layout_below="@+id/checkBox1"
+        android:layout_marginTop="22dp"
+        android:text="Gigablast" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/checkBox2"
+        android:layout_marginTop="24dp"
+        android:text="Google" />
+ <CheckBox
+     android:id="@+id/checkBox4"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_below="@+id/checkBox3"
+     android:layout_marginTop="24dp"
+     android:text="Munax" />
+
+    <Button
+        android:layout_width="428dp"
+        android:layout_height="60dp"
+        android:id="@+id/btn13"
+        android:text="Please choose"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="btn13"/>
+</LinearLayout>

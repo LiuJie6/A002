@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="361dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Survey:Step13"/>
+    <TextView
+        android:layout_width="361dp"
+        android:layout_height="100dp"
+        android:id="@+id/tex6"
+        android:gravity="center"
+        android:text="Do you want to know more about the project?"/>
+
+    <Button
+        android:text="Yes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn141"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="btn141"/>
+
+    <Button
+        android:text="No"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn142"
+
+        android:onClick="btn142"/>
+
+
+</LinearLayout>

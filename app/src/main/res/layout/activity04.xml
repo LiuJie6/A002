@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Survey:Step3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/tex4"
+        android:gravity="center"
+        android:text="Where are you from?"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="277dp"
+        android:id="@+id/list"></ListView>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="choose one"
+        android:id="@+id/btn4"
+        android:onClick="btn4"/>
+
+</LinearLayout>

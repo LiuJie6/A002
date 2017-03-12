@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Survey:Step8"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+         android:background="@color/colorPrimaryDark"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:id="@+id/tex9"
+        android:gravity="center"
+        android:text="How long have you been in China"/>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="138dp"
+        android:layout_height="215dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="139dp"
+        android:layout_gravity="center"
+        android:weightSum="1"
+        android:layout_weight="0.62">
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Less than 6 months" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amost one year" />
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Less than 2 years" />
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More than 2 years" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="428dp"
+        android:layout_height="60dp"
+        android:id="@+id/btn9"
+        android:text="choose one"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="btn9" />
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">survey</string>
+    <string name="Thank">Thank you for accepting to take part in this.This will be very short anonymoussurvey,but we need you to be as honest as possible.
+    We will justfocus ion the main information we need,avoiding to take too much time of you.
+        Please,press the button below when you are ready to start.
+    </string>
+    <string name="start">Click here to Start</string>
+</resources>

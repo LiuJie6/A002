@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Survey:Step6" />
+    <TextView
+        android:layout_height="66dp"
+        android:id="@+id/tex7"
+        android:text="Do you use the Internet in Chinese"
+        android:gravity="center"
+        android:layout_width="match_parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="139dp"
+        android:layout_weight="0.72"
+        android:layout_gravity="center"
+        android:weightSum="1">
+    <RadioButton
+        android:id="@+id/radio0"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:text="Yes" />
+
+    <RadioButton
+        android:id="@+id/radio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="428dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn7"
+        android:background="@color/colorPrimaryDark"
+        android:text="choose one"
+        android:onClick="btn7" />
+
+
+</LinearLayout>
